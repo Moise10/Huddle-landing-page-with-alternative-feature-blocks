@@ -1,0 +1,57 @@
+
+.footer-section{
+  background-color: $very-dark-cyan;
+  margin-top: -130px;
+  height: 38rem;
+
+  .logos {
+    display: flex;
+    flex-direction: column;
+
+    .copyright{
+      color: $very-pale-cyan;
+      margin-top: auto;     
+      font-size: 1.2rem;
+    }
+
+    .logos-tags {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+
+    .logo-tag {
+      .logo-icon {
+        color: $very-pale-cyan;
+        height: 2.8rem;
+        width: 2.8rem;
+        border: 1px solid $very-pale-cyan;
+        border-radius: 100%;
+        padding: 0.5rem;
+      }
+    }
+  }
+  }
+
+  .tag-links {
+    list-style: none;
+    .tag-link{
+      padding-bottom: 1.8rem;
+      .link{
+      color: $very-pale-cyan;
+      text-decoration: none;
+      }
+    }
+  }
+
+  .about-links{
+    list-style: none;
+    .about-link{
+      padding-bottom: 1.8rem;
+      .link{
+      color: $very-pale-cyan;
+      text-decoration: none;
+      }
+    }
+  }
+}
+

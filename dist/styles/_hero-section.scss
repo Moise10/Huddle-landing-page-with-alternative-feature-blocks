@@ -1,0 +1,37 @@
+
+.hero-section {
+  padding-top: 0;
+  background-image: url('../images/bg-hero-desktop.svg');
+  .hero-content {
+    
+    .hero-text{
+      line-height: 1.4;
+      margin-top: 2.8rem;
+      font-family:$open-sans-font;
+
+    }
+    .hero-btn {
+      color: $very-pale-cyan;
+      background-color: $pink-color;
+      padding: 1.6rem 6rem;
+      border: none;
+      margin-top: 2.8rem;
+      border-radius: 3rem;
+    }
+
+    .heading-primary{
+      font-weight: $font-700-weight;
+      line-height: 1.4;
+      font-size: 4.2rem;
+      font-family: $poppins-font;
+
+    }
+
+  }
+
+  .hero-image {
+    .hero-img{
+      width: 90%;
+    }
+  }
+}

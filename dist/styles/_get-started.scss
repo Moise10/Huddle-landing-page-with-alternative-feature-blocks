@@ -1,0 +1,28 @@
+
+.get-started {
+  z-index: 10;
+}
+.box-comunity{
+  height: 20rem;
+  width: 55rem;
+  margin: 0 auto;
+  background-color: $white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: center;
+  padding-top: 5rem;
+
+  .heading-secondary-c {
+    font-family: $poppins-font;
+    font-size: 1.8rem;
+  }
+
+  .btn-started{
+    background-color: $pink-color;
+    padding: 1.8rem 6rem;
+    border: none;
+    border-radius: 6rem;
+    margin-top: 3rem;
+    color: $very-pale-cyan;
+  }
+
+}

@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: $body-font-size;
+}
+
+.container {
+  max-width: $desktop-width;
+  margin: 0 auto;
+  padding: 6rem;
+}
+
+.grid--2-3-cols {
+  display: grid;
+  grid-template-columns: 40fr 60fr;
+  align-items: center;
+  gap: 6rem;
+}
+
+.grid--2-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 6rem;
+}
+
+.grid--4-cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.box {
+  background-color: $white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 10rem;
+}
+
